@@ -29,12 +29,14 @@ claude plugin marketplace update claude-tools
 
 | Name | Description |
 |------|-------------|
+| `tdd-enforcer` | Enforces strict Test-Driven Development (RED-GREEN-REFACTOR) practices |
 | `placeholder-agent` | A placeholder subagent — replace with your own |
 
 ### Skills
 
 | Name | Invoke | Description |
 |------|--------|-------------|
+| `refactor` | `/refactor` | Refactors code to match the user's preferred style |
 | `placeholder-skill` | `/placeholder-skill` | A placeholder skill — replace with your own |
 
 ### Hooks

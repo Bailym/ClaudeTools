@@ -5,9 +5,21 @@
   },
   "plugins": [
     {
+      "name": "tdd-enforcer",
+      "source": "./plugins/tdd-enforcer",
+      "description": "A subagent that enforces strict Test-Driven Development (RED-GREEN-REFACTOR) practices",
+      "version": "1.0.0"
+    },
+    {
       "name": "placeholder-agent",
       "source": "./plugins/placeholder-agent",
       "description": "A placeholder subagent example",
+      "version": "1.0.0"
+    },
+    {
+      "name": "refactor",
+      "source": "./plugins/refactor",
+      "description": "A skill that refactors code to match the user's preferred style",
       "version": "1.0.0"
     },
     {

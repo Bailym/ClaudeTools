@@ -1,0 +1,5 @@
+{
+  "name": "refactor",
+  "description": "A skill that refactors code to match the user's preferred style",
+  "version": "1.0.0"
+}
