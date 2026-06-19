@@ -11,6 +11,24 @@
       "version": "1.0.0"
     },
     {
+      "name": "code-reviewer",
+      "source": "./plugins/code-reviewer",
+      "description": "A subagent that reviews code against the user's conventions and craftsmanship standards",
+      "version": "1.0.0"
+    },
+    {
+      "name": "embedded-safety-auditor",
+      "source": "./plugins/embedded-safety-auditor",
+      "description": "A subagent that audits C/C++ embedded code for undefined behavior, concurrency hazards, and resource-safety defects",
+      "version": "1.0.0"
+    },
+    {
+      "name": "docs-writer",
+      "source": "./plugins/docs-writer",
+      "description": "A subagent that writes and updates code documentation (Doxygen, JSDoc/TSDoc) and READMEs on request",
+      "version": "1.0.0"
+    },
+    {
       "name": "placeholder-agent",
       "source": "./plugins/placeholder-agent",
       "description": "A placeholder subagent example",

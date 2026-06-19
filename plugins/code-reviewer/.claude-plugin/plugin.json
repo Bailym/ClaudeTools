@@ -1,0 +1,5 @@
+{
+  "name": "code-reviewer",
+  "description": "A subagent that reviews code against the user's conventions and craftsmanship standards",
+  "version": "1.0.0"
+}

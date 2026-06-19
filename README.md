@@ -30,6 +30,9 @@ claude plugin marketplace update claude-tools
 | Name | Description |
 |------|-------------|
 | `tdd-enforcer` | Enforces strict Test-Driven Development (RED-GREEN-REFACTOR) practices |
+| `code-reviewer` | Reviews code against your conventions and craftsmanship standards |
+| `embedded-safety-auditor` | Audits C/C++ embedded code for undefined behavior, concurrency hazards, and resource-safety defects |
+| `docs-writer` | Writes and updates code documentation (Doxygen, JSDoc/TSDoc) and READMEs on request |
 | `placeholder-agent` | A placeholder subagent — replace with your own |
 
 ### Skills

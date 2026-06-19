@@ -1,0 +1,5 @@
+{
+  "name": "docs-writer",
+  "description": "A subagent that writes and updates code documentation (Doxygen, JSDoc/TSDoc) and READMEs on request",
+  "version": "1.0.0"
+}
