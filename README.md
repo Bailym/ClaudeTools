@@ -46,6 +46,7 @@ claude plugin marketplace update claude-tools
 
 | Name | Event | Description |
 |------|-------|-------------|
+| `tooling-reminder` | `UserPromptSubmit` | Reminds Claude to check for a relevant agent, skill, or hook on every request |
 | `placeholder-hook` | `Stop` | A placeholder hook that runs when Claude stops |
 
 ---
