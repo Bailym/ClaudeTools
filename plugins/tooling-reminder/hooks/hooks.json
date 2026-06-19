@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/on-user-prompt.sh"
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/on-user-prompt.sh\""
           }
         ]
       }
