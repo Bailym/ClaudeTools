@@ -11,9 +11,9 @@ claude plugin marketplace add bailym/ClaudeTools
 
 **2. Install individual plugins:**
 ```bash
-claude plugin install placeholder-agent@claude-tools
-claude plugin install placeholder-skill@claude-tools
-claude plugin install placeholder-hook@claude-tools
+claude plugin install placeholder-agent@bailym-claude-tools
+claude plugin install placeholder-skill@bailym-claude-tools
+claude plugin install placeholder-hook@bailym-claude-tools
 ```
 
 **3. Update all plugins to the latest version:**
