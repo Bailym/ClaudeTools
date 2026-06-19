@@ -9,7 +9,7 @@ This repo is a personal collection of Claude Code plugins — agents, skills, an
   - `.claude-plugin/plugin.json` — plugin metadata (name, description, version)
   - `agents/` — subagent `.md` files
   - `skills/<name>/SKILL.md` — skill definitions
-  - `hooks/` — hook scripts and `settings.json` wiring
+  - `hooks/` — hook scripts plus a `hooks/hooks.json` that wires events to commands; reference bundled scripts with `${CLAUDE_PLUGIN_ROOT}` (e.g. `bash "${CLAUDE_PLUGIN_ROOT}/hooks/on-x.sh"`), not relative paths, so they resolve once installed
 
 ## Rules
 
