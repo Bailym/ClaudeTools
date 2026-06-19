@@ -11,9 +11,9 @@ claude plugin marketplace add bailym/ClaudeTools
 
 **2. Install individual plugins:**
 ```bash
-claude plugin install placeholder-agent@bailym-claude-tools
-claude plugin install placeholder-skill@bailym-claude-tools
-claude plugin install placeholder-hook@bailym-claude-tools
+claude plugin install code-reviewer@bailym-claude-tools
+claude plugin install embedded-safety-auditor@bailym-claude-tools
+claude plugin install tooling-reminder@bailym-claude-tools
 ```
 
 **3. Update all plugins to the latest version:**
@@ -33,21 +33,18 @@ claude plugin marketplace update claude-tools
 | `code-reviewer` | Reviews code against your conventions and craftsmanship standards |
 | `embedded-safety-auditor` | Audits C/C++ embedded code for undefined behavior, concurrency hazards, and resource-safety defects |
 | `docs-writer` | Writes and updates code documentation (Doxygen, JSDoc/TSDoc) and READMEs on request |
-| `placeholder-agent` | A placeholder subagent — replace with your own |
 
 ### Skills
 
 | Name | Invoke | Description |
 |------|--------|-------------|
 | `refactor` | `/refactor` | Refactors code to match the user's preferred style |
-| `placeholder-skill` | `/placeholder-skill` | A placeholder skill — replace with your own |
 
 ### Hooks
 
 | Name | Event | Description |
 |------|-------|-------------|
 | `tooling-reminder` | `UserPromptSubmit` | Reminds Claude to check for a relevant agent, skill, or hook on every request |
-| `placeholder-hook` | `Stop` | A placeholder hook that runs when Claude stops |
 
 ---
 

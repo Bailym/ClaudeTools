@@ -29,33 +29,15 @@
       "version": "1.0.0"
     },
     {
-      "name": "placeholder-agent",
-      "source": "./plugins/placeholder-agent",
-      "description": "A placeholder subagent example",
-      "version": "1.0.0"
-    },
-    {
       "name": "refactor",
       "source": "./plugins/refactor",
       "description": "A skill that refactors code to match the user's preferred style",
       "version": "1.0.0"
     },
     {
-      "name": "placeholder-skill",
-      "source": "./plugins/placeholder-skill",
-      "description": "A placeholder skill example",
-      "version": "1.0.0"
-    },
-    {
       "name": "tooling-reminder",
       "source": "./plugins/tooling-reminder",
       "description": "A UserPromptSubmit hook that reminds Claude to check for a relevant agent, skill, or hook on every request",
-      "version": "1.0.0"
-    },
-    {
-      "name": "placeholder-hook",
-      "source": "./plugins/placeholder-hook",
-      "description": "A placeholder hook example",
       "version": "1.0.0"
     }
   ]
