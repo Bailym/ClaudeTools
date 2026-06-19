@@ -1,0 +1,26 @@
+{
+  "name": "claude-tools",
+  "owner": {
+    "name": "baily"
+  },
+  "plugins": [
+    {
+      "name": "placeholder-agent",
+      "source": "./plugins/placeholder-agent",
+      "description": "A placeholder subagent example",
+      "version": "1.0.0"
+    },
+    {
+      "name": "placeholder-skill",
+      "source": "./plugins/placeholder-skill",
+      "description": "A placeholder skill example",
+      "version": "1.0.0"
+    },
+    {
+      "name": "placeholder-hook",
+      "source": "./plugins/placeholder-hook",
+      "description": "A placeholder hook example",
+      "version": "1.0.0"
+    }
+  ]
+}
