@@ -4,21 +4,38 @@ A personal collection of Claude Code agents, skills, and hooks — installable o
 
 ## Installation
 
+### From inside Claude Code (`/plugin`)
+
 **1. Add this repo as a marketplace:**
+```
+/plugin marketplace add bailym/ClaudeTools
+```
+
+**2. Install individual plugins** — either with the shorthand:
+```
+/plugin install code-reviewer@bailym-claude-tools
+/plugin install tdd-auditor@bailym-claude-tools
+```
+…or browse interactively: run `/plugin`, open the **Discover** tab, pick a
+plugin, and press Enter to choose an install scope (user / project / local).
+
+**3. Activate them in the current session:**
+```
+/reload-plugins
+```
+Plugins are auto-enabled on install; `/reload-plugins` loads them without a
+restart. Manage them anytime via `/plugin` (**Installed** / **Marketplaces**
+tabs) or `/plugin list`.
+
+> Skills from a plugin are namespaced — e.g. invoke the refactor skill as
+> `/bailym-claude-tools:refactor`.
+
+### From the shell (`claude` CLI)
+
 ```bash
 claude plugin marketplace add bailym/ClaudeTools
-```
-
-**2. Install individual plugins:**
-```bash
 claude plugin install code-reviewer@bailym-claude-tools
-claude plugin install embedded-safety-auditor@bailym-claude-tools
-claude plugin install tooling-reminder@bailym-claude-tools
-```
-
-**3. Update all plugins to the latest version:**
-```bash
-claude plugin marketplace update claude-tools
+claude plugin marketplace update bailym-claude-tools   # update to the latest versions
 ```
 
 ---
