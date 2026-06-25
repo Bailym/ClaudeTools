@@ -39,6 +39,7 @@ claude plugin marketplace update claude-tools
 | Name | Invoke | Description |
 |------|--------|-------------|
 | `refactor` | `/refactor` | Refactors code to match the user's preferred style |
+| `usetools` | `/usetools` | Surveys available agents, skills, and hooks and picks the best fit for the task |
 
 ### Hooks
 
