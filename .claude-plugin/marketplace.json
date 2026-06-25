@@ -47,12 +47,6 @@
       "version": "1.1.1"
     },
     {
-      "name": "usetools",
-      "source": "./plugins/usetools",
-      "description": "A skill that explicitly surveys available agents, skills, and hooks for the current task and picks the best fit",
-      "version": "1.0.1"
-    },
-    {
       "name": "usetdd",
       "source": "./plugins/usetdd",
       "description": "A skill that drives the RED-GREEN-REFACTOR cycle inline — failing test first, minimum code to green, then refactor",

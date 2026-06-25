@@ -57,7 +57,6 @@ claude plugin marketplace update bailym-claude-tools   # update to the latest ve
 | Name | Invoke | Description |
 |------|--------|-------------|
 | `refactor` | `/refactor` | Refactors code to match the user's preferred style |
-| `usetools` | `/usetools` | Surveys available agents, skills, and hooks and picks the best fit for the task |
 | `usetdd` | `/usetdd` | Drives the RED-GREEN-REFACTOR cycle inline — failing test first, minimum code to green, then refactor |
 
 ### Hooks
