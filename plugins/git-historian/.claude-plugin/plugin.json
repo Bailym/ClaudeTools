@@ -1,0 +1,5 @@
+{
+  "name": "git-historian",
+  "description": "A read-only subagent that investigates git history — when/why code changed, who owns an area, and changelog/release notes from a commit range",
+  "version": "1.0.0"
+}

@@ -33,6 +33,7 @@ claude plugin marketplace update claude-tools
 | `code-reviewer` | Reviews code against your conventions and craftsmanship standards |
 | `embedded-safety-auditor` | Audits C/C++ embedded code for undefined behavior, concurrency hazards, and resource-safety defects |
 | `docs-writer` | Writes and updates code documentation (Doxygen, JSDoc/TSDoc) and READMEs on request |
+| `git-historian` | Read-only investigation of git history — when/why code changed, who owns an area, and changelog/release notes |
 
 ### Skills
 
