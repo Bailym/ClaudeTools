@@ -44,7 +44,7 @@
       "name": "tooling-reminder",
       "source": "./plugins/tooling-reminder",
       "description": "A UserPromptSubmit hook that reminds Claude to check for a relevant agent, skill, or hook on every request",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
     {
       "name": "usetools",

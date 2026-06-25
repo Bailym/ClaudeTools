@@ -40,7 +40,7 @@ For the current request, work out which single tool is the best fit:
 
 Before any other tool call or substantive work, state one of:
 - **"Using `<agent-or-skill>`"** — name the chosen tool and a one-line reason, then invoke it.
-- **"None fits — doing it directly"** — give a one-line reason why no available tool applies, then proceed manually.
+- **"No relevant tools — doing it directly"** — give a one-line reason why no available tool applies, then proceed manually.
 
 Never skip this decision silently. The whole point of invoking this skill is to
 make the tooling choice explicit.

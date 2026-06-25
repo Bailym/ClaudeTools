@@ -8,4 +8,4 @@
 # nudge gets deprioritised as boilerplate. Forcing an explicit, named decision
 # before any other tool call makes skipping the check visible.
 
-echo "STOP — before any other tool call or substantive response, decide which specialized tool best fits this request: name one available agent or skill to use, OR state 'none fits — doing it directly' with a one-line reason. Do not skip this check. Choose the best-fitting agent or skill over an ad-hoc manual approach whenever one applies."
+echo "STOP — before any other tool call or substantive response, decide which specialized tool best fits this request: name one available agent or skill to use, OR state 'No relevant tools — doing it directly' with a one-line reason. Do not skip this check. Choose the best-fitting agent or skill over an ad-hoc manual approach whenever one applies."
