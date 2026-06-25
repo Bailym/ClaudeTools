@@ -1,5 +1,5 @@
 {
   "name": "embedded-safety-auditor",
   "description": "A subagent that audits C/C++ embedded code for undefined behavior, concurrency hazards, and resource-safety defects",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

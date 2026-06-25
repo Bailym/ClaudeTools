@@ -1,5 +1,5 @@
 {
   "name": "usetools",
   "description": "A skill that explicitly surveys available agents, skills, and hooks for the current task and picks the best fit",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

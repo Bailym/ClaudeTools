@@ -8,31 +8,31 @@
       "name": "tdd-auditor",
       "source": "./plugins/tdd-auditor",
       "description": "A subagent that audits whether code followed the Test-Driven Development (RED-GREEN-REFACTOR) cycle",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
     {
       "name": "code-reviewer",
       "source": "./plugins/code-reviewer",
       "description": "A subagent that reviews code against the user's conventions and craftsmanship standards",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     {
       "name": "embedded-safety-auditor",
       "source": "./plugins/embedded-safety-auditor",
       "description": "A subagent that audits C/C++ embedded code for undefined behavior, concurrency hazards, and resource-safety defects",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     {
       "name": "docs-writer",
       "source": "./plugins/docs-writer",
       "description": "A subagent that writes and updates code documentation (Doxygen, JSDoc/TSDoc) and READMEs on request",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     {
       "name": "git-historian",
       "source": "./plugins/git-historian",
       "description": "A read-only subagent that investigates git history — when/why code changed, who owns an area, and changelog/release notes from a commit range",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     {
       "name": "refactor",
@@ -50,7 +50,7 @@
       "name": "usetools",
       "source": "./plugins/usetools",
       "description": "A skill that explicitly surveys available agents, skills, and hooks for the current task and picks the best fit",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     {
       "name": "usetdd",

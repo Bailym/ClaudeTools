@@ -3,18 +3,20 @@ name: usetools
 description: >
   Explicitly survey the available agents, skills, and hooks and pick the
   best-fitting one for the current task before doing any work. This is the
-  manual, on-demand counterpart to the tooling-reminder hook — invoke it via
-  /usetools when you want to force a deliberate tooling decision, or use it
+  manual, on-demand way to force a deliberate tooling decision — invoke it via
+  /usetools when you want to weigh the available tools before acting, or use it
   proactively whenever a request might be better served by a specialized agent
-  or skill than by an ad-hoc manual approach.
+  or skill than by an ad-hoc manual approach. (If a prompt hook that nudges this
+  same check is installed, this skill is its manual counterpart; it does not
+  depend on one.)
 ---
 
 # Use the Right Tool
 
-This skill is the manual, explicit alternative to the `tooling-reminder` hook.
-The hook nudges on every prompt but is easy to skip; invoke `/usetools` when you
-want to force a deliberate, on-demand tooling decision instead. Use one or the
-other — they serve the same purpose by different means.
+This skill forces a deliberate, on-demand tooling decision: invoke `/usetools`
+when you want to weigh the available tools before acting. If you also run a
+prompt hook that nudges the same check automatically on every prompt, this skill
+is its manual counterpart — but it stands on its own and assumes no other tool.
 
 Before acting on the current request, deliberately decide whether a specialized
 agent or skill should handle it instead of an ad-hoc manual approach.
