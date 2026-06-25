@@ -1,0 +1,5 @@
+{
+  "name": "tdd-auditor",
+  "description": "A subagent that audits whether code followed the Test-Driven Development (RED-GREEN-REFACTOR) cycle",
+  "version": "1.1.0"
+}

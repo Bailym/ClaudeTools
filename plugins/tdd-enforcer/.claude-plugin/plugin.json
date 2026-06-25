@@ -1,5 +1,0 @@
-{
-  "name": "tdd-enforcer",
-  "description": "A subagent that enforces strict Test-Driven Development (RED-GREEN-REFACTOR) practices",
-  "version": "1.0.0"
-}

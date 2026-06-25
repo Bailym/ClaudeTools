@@ -1,0 +1,5 @@
+{
+  "name": "usetdd",
+  "description": "A skill that drives the RED-GREEN-REFACTOR cycle inline — failing test first, minimum code to green, then refactor",
+  "version": "1.0.0"
+}

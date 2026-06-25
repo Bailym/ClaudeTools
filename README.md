@@ -29,7 +29,7 @@ claude plugin marketplace update claude-tools
 
 | Name | Description |
 |------|-------------|
-| `tdd-enforcer` | Enforces strict Test-Driven Development (RED-GREEN-REFACTOR) practices |
+| `tdd-auditor` | Audits whether code followed the Test-Driven Development (RED-GREEN-REFACTOR) cycle |
 | `code-reviewer` | Reviews code against your conventions and craftsmanship standards |
 | `embedded-safety-auditor` | Audits C/C++ embedded code for undefined behavior, concurrency hazards, and resource-safety defects |
 | `docs-writer` | Writes and updates code documentation (Doxygen, JSDoc/TSDoc) and READMEs on request |
@@ -41,6 +41,7 @@ claude plugin marketplace update claude-tools
 |------|--------|-------------|
 | `refactor` | `/refactor` | Refactors code to match the user's preferred style |
 | `usetools` | `/usetools` | Surveys available agents, skills, and hooks and picks the best fit for the task |
+| `usetdd` | `/usetdd` | Drives the RED-GREEN-REFACTOR cycle inline — failing test first, minimum code to green, then refactor |
 
 ### Hooks
 

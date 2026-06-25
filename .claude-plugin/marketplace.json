@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "tdd-enforcer",
-      "source": "./plugins/tdd-enforcer",
-      "description": "A subagent that enforces strict Test-Driven Development (RED-GREEN-REFACTOR) practices",
-      "version": "1.0.0"
+      "name": "tdd-auditor",
+      "source": "./plugins/tdd-auditor",
+      "description": "A subagent that audits whether code followed the Test-Driven Development (RED-GREEN-REFACTOR) cycle",
+      "version": "1.1.0"
     },
     {
       "name": "code-reviewer",
@@ -50,6 +50,12 @@
       "name": "usetools",
       "source": "./plugins/usetools",
       "description": "A skill that explicitly surveys available agents, skills, and hooks for the current task and picks the best fit",
+      "version": "1.0.0"
+    },
+    {
+      "name": "usetdd",
+      "source": "./plugins/usetdd",
+      "description": "A skill that drives the RED-GREEN-REFACTOR cycle inline — failing test first, minimum code to green, then refactor",
       "version": "1.0.0"
     }
   ]
