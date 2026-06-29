@@ -5,12 +5,6 @@
   },
   "plugins": [
     {
-      "name": "tdd-auditor",
-      "source": "./plugins/tdd-auditor",
-      "description": "A subagent that audits whether code followed the Test-Driven Development (RED-GREEN-REFACTOR) cycle",
-      "version": "1.1.1"
-    },
-    {
       "name": "code-reviewer",
       "source": "./plugins/code-reviewer",
       "description": "A subagent that reviews code against the user's conventions and craftsmanship standards",

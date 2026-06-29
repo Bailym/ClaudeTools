@@ -14,7 +14,7 @@ A personal collection of Claude Code agents, skills, and hooks — installable o
 **2. Install individual plugins** — either with the shorthand:
 ```
 /plugin install code-reviewer@bailym-claude-tools
-/plugin install tdd-auditor@bailym-claude-tools
+/plugin install usetdd@bailym-claude-tools
 ```
 …or browse interactively: run `/plugin`, open the **Discover** tab, pick a
 plugin, and press Enter to choose an install scope (user / project / local).
@@ -46,7 +46,6 @@ claude plugin marketplace update bailym-claude-tools   # update to the latest ve
 
 | Name | Description |
 |------|-------------|
-| `tdd-auditor` | Audits whether code followed the Test-Driven Development (RED-GREEN-REFACTOR) cycle |
 | `code-reviewer` | Reviews code against your conventions and craftsmanship standards |
 | `embedded-safety-auditor` | Audits C/C++ embedded code for undefined behavior, concurrency hazards, and resource-safety defects |
 | `docs-writer` | Writes and updates code documentation (Doxygen, JSDoc/TSDoc) and READMEs on request |
