@@ -57,7 +57,7 @@ claude plugin marketplace update bailym-claude-tools   # update to the latest ve
 |------|--------|-------------|
 | `refactor` | `/refactor` | Refactors code to match the user's preferred style |
 | `usetdd` | `/usetdd` | Drives the RED-GREEN-REFACTOR cycle inline — failing test first, minimum code to green, then refactor |
-| `interview` | `/interview` | Interviews you about the topic at hand — one focused question at a time — to draw out requirements, decisions, and reasoning |
+| `interview` | `/interview` | Interviews you about the topic at hand — one focused question at a time via AskUserQuestion — to draw out requirements, decisions, and reasoning |
 | `council` | `/council` | Spawns five agents, each arguing a fixed lens (simplicity, risk, cost-benefit, long-term maintenance, contrarian), then reports where they agree and disagree |
 
 ### Hooks

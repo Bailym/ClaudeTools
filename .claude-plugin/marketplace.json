@@ -49,8 +49,8 @@
     {
       "name": "interview",
       "source": "./plugins/interview",
-      "description": "A skill that interviews the user about the topic at hand — one focused question at a time — to draw out requirements, decisions, and reasoning",
-      "version": "1.0.0"
+      "description": "A skill that interviews the user about the topic at hand — one focused question at a time via AskUserQuestion — to draw out requirements, decisions, and reasoning",
+      "version": "1.0.1"
     },
     {
       "name": "council",

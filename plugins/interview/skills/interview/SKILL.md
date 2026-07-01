@@ -2,7 +2,8 @@
 name: interview
 description: >
   Interview the user about whatever you are currently discussing — turn the
-  conversation around and ask them focused questions, one at a time, to draw out
+  conversation around and ask them focused questions, one at a time via
+  AskUserQuestion so they can pick an option or type their own, to draw out
   requirements, decisions, constraints, and reasoning they have not yet stated.
   Invoke it via /interview when the user wants to be questioned to clarify their
   own thinking, flesh out a design or spec, or surface hidden assumptions before
@@ -18,20 +19,31 @@ built on a clear, shared understanding.
 
 ## How to run the interview
 
-- **One question at a time.** Ask a single, specific question and wait for the
-  answer before asking the next. Never batch a list of questions into one turn.
+- **Use the `AskUserQuestion` tool for every question.** Don't ask in plain
+  prose — render each question through the tool so the user can pick an option
+  or type their own answer via "Other". This keeps answers fast to give and
+  easy to skim back through.
+- **One question at a time.** A single `AskUserQuestion` call per turn, then
+  wait for the answer before asking the next. Never batch unrelated questions
+  into one call — the tool's multi-question support is for closely related
+  sub-choices of the *same* question, not a form.
+- **Write real options, not a token gesture.** Each question needs 2-4 concrete,
+  mutually exclusive answers you'd genuinely expect — drawn from the topic, the
+  conversation so far, or common patterns for this kind of decision. The user
+  can always fall back to "Other" with free text, so options are a fast path,
+  not a constraint on what they can say.
 - **Start broad, then narrow.** Open with the goal and the "why", then drill into
   scope, constraints, edge cases, and concrete details as the picture sharpens.
-- **Follow the thread.** Let each answer steer the next question. If an answer is
-  vague, ambiguous, or surprising, dig into *that* before moving on.
-- **Probe, don't lead.** Ask open questions that surface the user's own thinking.
-  Avoid yes/no questions and avoid smuggling your preferred answer into the
-  question.
+- **Follow the thread.** Let each answer steer the next question's options. If an
+  answer is vague, ambiguous, or surprising, dig into *that* before moving on.
+- **Probe, don't lead.** Offer options that span genuinely different directions,
+  not a preferred answer plus straw men. Avoid yes/no questions where possible.
 - **Surface the unsaid.** Actively hunt for hidden assumptions, unstated
   constraints, success criteria, failure modes, and things the user may be taking
   for granted.
 - **Reflect back.** Periodically summarise what you have heard in your own words
-  and ask the user to confirm or correct it.
+  and ask the user to confirm or correct it — this recap can be plain text, it
+  doesn't need to be a question.
 
 ## What to cover
 
@@ -50,9 +62,10 @@ Adapt to the topic, but typically work toward understanding:
 
 ## Tone
 
-Be curious and concise. Keep your questions short and easy to answer. This is a
-conversation, not an interrogation or a form — react to what you hear, and let
-the user take it in unexpected directions.
+Be curious and concise. Keep questions and options short and easy to scan. This
+is a conversation, not an interrogation or a form — react to what you hear, and
+let the user take it in unexpected directions, including by picking "Other" and
+writing something you didn't offer.
 
 ## Wrapping up
 
