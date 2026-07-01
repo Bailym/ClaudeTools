@@ -1,0 +1,5 @@
+{
+  "name": "council",
+  "description": "A skill that spawns five agents, each arguing a fixed lens (simplicity, risk, cost-benefit, long-term maintenance, contrarian), then reports where they agree and disagree",
+  "version": "1.0.0"
+}
