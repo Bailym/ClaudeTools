@@ -50,7 +50,7 @@ claude plugin marketplace update bailym-claude-tools   # update to the latest ve
 | `embedded-safety-auditor` | Audits C/C++ embedded code for undefined behavior, concurrency hazards, and resource-safety defects |
 | `docs-writer` | Writes and updates code documentation (Doxygen, JSDoc/TSDoc) and READMEs on request |
 | `git-historian` | Read-only investigation of git history — when/why code changed, who owns an area, and changelog/release notes |
-| `stakeholder-summary` | Explains how a feature or system works in plain, non-technical language for product stakeholders — from a feature name or a PR/diff, at a selectable audience register |
+| `stakeholder-summary` | Explains how anything complex works in plain, non-technical language — a codebase feature/system (from a feature name or PR/diff) or a code-free topic like hardware, a protocol, or a concept — at a selectable audience register |
 
 ### Skills
 
