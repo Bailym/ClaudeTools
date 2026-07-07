@@ -29,6 +29,12 @@
       "version": "1.0.1"
     },
     {
+      "name": "stakeholder-summary",
+      "source": "./plugins/stakeholder-summary",
+      "description": "A read-only subagent that explains how a feature or system works in plain, non-technical language for product stakeholders — from a feature name or a PR/diff, at a selectable audience register",
+      "version": "1.0.0"
+    },
+    {
       "name": "refactor",
       "source": "./plugins/refactor",
       "description": "A skill that refactors code to match the user's preferred style",
