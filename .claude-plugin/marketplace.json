@@ -29,8 +29,8 @@
       "version": "1.0.1"
     },
     {
-      "name": "stakeholder-summary",
-      "source": "./plugins/stakeholder-summary",
+      "name": "explain-simply",
+      "source": "./plugins/explain-simply",
       "description": "A read-only subagent that explains how anything complex works in plain, non-technical language — a codebase feature/system (from a feature name or PR/diff) or a code-free topic like hardware, a protocol, or a concept — at a selectable audience register",
       "version": "1.1.0"
     },
