@@ -51,6 +51,43 @@ Work one small behaviour at a time, repeating RED → GREEN → REFACTOR:
 - Don't add production code (getters, setters, constructors, visibility hacks)
   that exists only to let a test see inside.
 
+## Name your expected and actual values
+
+Assertions should read as a sentence, not as a puzzle of literals. Bind both
+sides of an assertion to a named variable before asserting:
+
+```cpp
+// no
+ASSERT_EQ(40, motorRPM);
+
+// yes
+const int expectedMotorRpm = 40;
+const int actualMotorRpm = readMotorRpm();
+ASSERT_EQ(expectedMotorRpm, actualMotorRpm);
+```
+
+```ts
+// no
+expect(calculateTotal(cart)).toBe(31.5);
+
+// yes
+const expectedTotal = 31.5;
+const actualTotal = calculateTotal(cart);
+expect(actualTotal).toBe(expectedTotal);
+```
+
+- Prefix the names `expected` / `actual` so a failure message points straight at
+  which side is which.
+- The name explains *why* the value is what it is — `expectedMotorRpm` says more
+  than a bare `40`, and a reader no longer has to guess whether the literal is
+  the input, the output, or a threshold.
+- Extract the value under test into `actual...` even when the call is short; it
+  separates "run the behaviour" from "check the result".
+- Applies to non-equality assertions too — name the bound, tolerance, or
+  substring you are checking against rather than inlining it.
+- Don't name the trivially self-describing: `ASSERT_TRUE(pump.isRunning())` is
+  already clear, and wrapping it adds noise.
+
 ## Pragmatic edge cases
 
 - **Bug fixes:** first write a failing test that reproduces the bug, then fix it.
@@ -67,5 +104,6 @@ Each loop, check:
 - Did the test fail before it passed, for the right reason?
 - Is the production code only what a test required?
 - Do the tests describe behaviour, and would they survive an internal refactor?
+- Does every assertion name its expected and actual values?
 
 Keep the loops small. One behaviour, one failing test, one step at a time.
