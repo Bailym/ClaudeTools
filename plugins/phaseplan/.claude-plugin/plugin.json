@@ -1,0 +1,5 @@
+{
+  "name": "phaseplan",
+  "description": "A skill that plans a feature or module as phases of vertical slices, writing a markdown plan in which every phase ends in something demonstrable",
+  "version": "1.0.0"
+}
