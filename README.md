@@ -61,6 +61,7 @@ claude plugin marketplace update bailym-claude-tools   # update to the latest ve
 | `interview` | `/interview` | Interviews you about the topic at hand — one focused question at a time via AskUserQuestion — to draw out requirements, decisions, and reasoning |
 | `council` | `/council` | Spawns five agents, each arguing a fixed lens (simplicity, risk, cost-benefit, long-term maintenance, contrarian), then reports where they agree and disagree |
 | `phaseplan` | `/phaseplan` | Plans a feature or module as phases of vertical slices — every phase ends in something demonstrable — and writes it to a markdown document |
+| `stash` | `/stash` | Run just before clearing context — writes everything the next session will need to the project's docs and to memory, then hands back a resume prompt |
 
 ### Hooks
 

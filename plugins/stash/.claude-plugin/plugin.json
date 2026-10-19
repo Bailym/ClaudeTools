@@ -1,0 +1,5 @@
+{
+  "name": "stash",
+  "description": "A skill run just before clearing context — writes everything the next session will need to the project's docs and to memory, then hands back a resume prompt",
+  "version": "1.0.0"
+}
